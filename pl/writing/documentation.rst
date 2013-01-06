@@ -1,16 +1,16 @@
 Documentation
 =============
 
-Readability is a primary focus for Python developers, in both project
-and code documentation. Following some simple best practices can save
-both you and others a lot of time.
+Łatwość w zrozumieniu jest czymś, czym kierują się programiści Pythona
+zarówno w kodzie programu, jak i w dokumentacji. Przestrzeganie kilku
+zasad może zaoszczędzic Tobie oraz innym sporo czasu.
 
 Project Documentation
 ---------------------
 
-A ``README`` file at the root directory should give general
-information to the users and the maintainers. It should be raw text or
-written in some very easy to read markup, such as
+Plik ``Readme`` w katalogu g?ównym (potocznie zwanym 'root') powinien
+opisywać najważniejsze sprawy projektu. Powinien być to tekst zwykły (plain text),
+albo zapisany przy u?yciu jakich? bardzo prostych znaczników.
 :ref:`reStructuredText-ref` and Markdown. It should contain a few
 lines explaining the purpose of the project or the library (without
 assuming the user knows anything about the project), the url of the

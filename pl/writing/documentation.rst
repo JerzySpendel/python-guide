@@ -1,35 +1,33 @@
-Documentation
+Dokumentacja
 =============
 
 Łatwość w zrozumieniu jest czymś, czym kierują się programiści Pythona
 zarówno w kodzie programu, jak i w dokumentacji. Przestrzeganie kilku
 zasad może zaoszczędzic Tobie oraz innym sporo czasu.
 
-Project Documentation
+Dokumentacja projektu
 ---------------------
 
-Plik ``Readme`` w katalogu g?ównym (potocznie zwanym 'root') powinien
+Plik ``README`` w katalogu głównym (potocznie zwanym 'root') powinien
 opisywać najważniejsze sprawy projektu. Powinien być to tekst zwykły (plain text),
-albo zapisany przy u?yciu jakich? bardzo prostych znaczników.
-:ref:`reStructuredText-ref` and Markdown. It should contain a few
-lines explaining the purpose of the project or the library (without
-assuming the user knows anything about the project), the url of the
-main source for the software, and some basic credit information. This
-file is the main entry point for readers of the code.
+albo zapisany przy użyciu jakichś bardzo prostych znaczników (np. :ref:`reStructuredText-ref`).
+Plik ten powinien zawierać kilka linijek opisujących sens tego projektu, oraz 
+link do strony głównej, dodatkowo można dopisać autorów.
+Należy przemyśleć myśl jaką chce się przekazać w tym pliku, ponieważ właśnie od niego
+ludzie zaczną szukać wskazówek odnośnie kodu.
 
-An ``INSTALL`` file is less necessary with python.  The installation
-instructions are often reduced to one command, such as ``pip install
-module`` or ``python setup.py install`` and added to the ``README``
-file.
+Plik ``INSTALL`` nie jest tak ważny jak readme. Zazwyczaj kończy się na
+kilku komendach jakie należy użyć, żeby zainstalować program, np.:
+``pip install module``, lub ``python setup.py install``. (?)
 
-A ``LICENSE`` file should *always* be present and specify the license under which the
-software is made available to the public.
+Plik ``LICENSE`` powinien być zawsze obecny i dostarczać licencję, na której 
+oprogramowanie jest dostępne.
 
-A ``TODO`` file or a ``TODO`` section in ``README`` should list the
-planned development for the code.
+Plik ``TODO`` albo sekcja ``TODO`` w ``README`` powinien zawierać
+planowane poprawki do kodu.
 
-A ``CHANGELOG`` file or section in ``README`` should compile a short
-overview of the changes in the code base for the latest versions.
+Plik ``CHANGELOG`` albo sekcja w ``README`` powinien zawierać 
+streszczenie zmian jakie zaszły względem ostatniej wydanej wersji.
 
 Project Publication
 -------------------

@@ -1,16 +1,16 @@
 Documentation
 =============
 
-Łatwość w zrozumieniu jest czym?, czym kieruj? si? programi?ci Pythona
+Łatwość w zrozumieniu jest czymś, czym kierują się programiści Pythona
 zarówno w kodzie programu, jak i w dokumentacji. Przestrzeganie kilku
-zasad mo?e zaoszcz?dzi? Tobie oraz innym sporo czasu.
+zasad może zaoszczędzic Tobie oraz innym sporo czasu.
 
 Project Documentation
 ---------------------
 
-Plik ``Readme`` w katalogu g?ównym (potocznie zwanym 'root') powinien
-opisywa? najwa?niejsze sprawy projektu. Powinien by? to tekst zwyk?y (plain text),
-albo zapisany przy u?yciu jakich? bardzo prostych znaczników.
+Plik ``Readme`` w katalogu głównym (potocznie zwanym 'root') powinien
+opisywać najważniejsze sprawy projektu. Powinien być to tekst zwykły (plain text),
+albo zapisany przy użyciu jakichś bardzo prostych znaczników.
 :ref:`reStructuredText-ref` and Markdown. It should contain a few
 lines explaining the purpose of the project or the library (without
 assuming the user knows anything about the project), the url of the
